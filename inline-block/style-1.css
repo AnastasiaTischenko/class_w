@@ -1,0 +1,92 @@
+body{
+    font-family: "Roboro",sans-serif;
+    font-size: 36px;
+}
+.wrap{
+    vertical-align: middle;
+    width: 900px;
+    padding: 4px;
+    border: 4px solid #3366ff;
+}
+.b-box{
+    vertical-align: top;
+    height: 36px;
+    width: 36px;
+    background: #3366ff;
+    display: inline-block;
+}
+.clmn-1, .clmn-2, .clmn-3{
+    position: relative;
+    vertical-align: middle;
+    padding: 5px;
+    display: inline-block;
+    width: 250px;
+    height: 460px;
+}
+.clmn-2{
+    border-left: 1px solid #3366ff;
+    border-right: 1px solid #3366ff;
+    display: inline-block;
+}
+.scnd-h:before{
+    content: "";
+    height: 36px;
+    width: 36px;
+    background: #3366ff;
+    display: inline-block;
+}
+.scnd-h{
+    position: relative;
+    left: 36px;
+}
+.thrd-h{
+    position: relative;
+    top: 100px;
+}
+.thrd-h:after{
+    content: "";
+    height: 36px;
+    width: 36px;
+    background: #3366ff;
+    display: inline-block;
+}
+h3{
+    margin: 0;
+}
+.frst-h{
+    display: inline-block;
+    position: relative;
+}
+.clmn-1 .b-box{
+    position: relative;
+}
+.thrd-h{
+    text-align: right;
+}
+.clmn-2{
+    position: relative;
+}
+.clmn-2 .b-box{
+    position: absolute;
+    top: 120px;
+    left: 135px;
+    z-index: -1;
+}
+.clmn-2, .clmn-3 h3{
+    text-align: center;
+}
+.clmn-3 .b-box{
+    position: absolute;
+    right: 108px;
+    top: 200px;
+    z-index: -1;
+}
+.hh{
+    position: relative;
+    top: 50px;
+     top: 120px;
+}
+.clmn-3 h3{
+    position: relative;
+    top: 200px;
+}
