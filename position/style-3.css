@@ -5,51 +5,68 @@
     height: 450px;
     border: 4px solid #3366ff;
     padding-top: 20px;
+    position: relative;
 }
 h3{
     margin: 0;
+    position: relative;
 }
 .b-box{
     width: 36px;
     height: 36px;
     background: #3366ff;
-    display: inline-block;
+    position: relative;
 }
 .clmn-1, .clmn-2, .clmn-3{
-    display: inline-block;
+    position: absolute;
     vertical-align: middle;
     width: 172px;
     height: 350px;
     padding: 30px 10px;
 }
+.clmn-1{
+    left: 0;
+}
 .clmn-2{
+    padding-top: 80px;
+    left: 190px;
     text-align: center;
     border-left: 1px solid #3366ff;
     border-right: 1px solid #3366ff;
 }
-.frst-h, .scnd-h, .thrd-h, h3{
-    display: inline-block;
+.clmn-3{
+    padding-top: 150px;
+    left: 440px;
+}
+.b-box-1{
+    left: 0;
 }
 .b-box-2{
-    margin-left: 27px;
+    top: -20px;
+    left: 36px;
+}
+.b-box-3{
+    top: -50px;
+    left: 130px;
+}
+.frst-h{
+    top: -40px;
+    left: 40px;
+}
+.scnd-h{
+    top: -60px;
+    left: 70px;
 }
 .thrd-h{
-    margin-top: 30px;
-    margin-left: 27px;
-}
-.clmn-2 h3{
-    position: relative;
-    z-index: 1;
-    margin-top: 25px;
+    left: 30px;
 }
 .clmn-2 .b-box{
-    margin-left: -40px;
-    margin-top: 20px;
+    top: -55px;
+    left: 105px;
     z-index: -1;
 }
 .clmn-3 .b-box{
-    position: relative;
-    left: 80px;
-    z-index: -1;
-    margin-top: 120px;
+    top: 40px;
+    left: 30px;
 }
+

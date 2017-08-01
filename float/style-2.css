@@ -10,13 +10,13 @@ h3{
     margin: 0;
 }
 .b-box{
+    float: left;
     width: 36px;
     height: 36px;
     background: #3366ff;
-    display: inline-block;
 }
 .clmn-1, .clmn-2, .clmn-3{
-    display: inline-block;
+    float: left;
     vertical-align: middle;
     width: 172px;
     height: 350px;
@@ -27,29 +27,34 @@ h3{
     border-left: 1px solid #3366ff;
     border-right: 1px solid #3366ff;
 }
-.frst-h, .scnd-h, .thrd-h, h3{
-    display: inline-block;
+h3{
+    float: left;
 }
 .b-box-2{
-    margin-left: 27px;
+    margin-left: 30px;
 }
-.thrd-h{
-    margin-top: 30px;
-    margin-left: 27px;
+.b-box-3, .thrd-h{
+    float: right;
+    margin-top: 50px;
 }
 .clmn-2 h3{
-    position: relative;
-    z-index: 1;
-    margin-top: 25px;
+    float: none;
+    margin-top: 30px;
 }
 .clmn-2 .b-box{
-    margin-left: -40px;
-    margin-top: 20px;
-    z-index: -1;
+    float: right;
+    margin-top: -50px;
+    margin-right: 40px
+}
+.clmn-3{
+    padding-top: 170px;
+    text-align: center;
+}
+.clmn-3 h3{
+    float: none;
 }
 .clmn-3 .b-box{
+    left: 85px;
     position: relative;
-    left: 80px;
     z-index: -1;
-    margin-top: 120px;
 }
